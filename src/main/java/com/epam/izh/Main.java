@@ -7,11 +7,6 @@ public class Main {
     private static String newText = "";
 
     public static void main(String[] args) {
-
-
-
-
-
         for (int key = 1; key < 33; key++) { // перебор всех возможных сдвигов
             for (int i = 0; i < getTextLength(); i++) { // перебор всех символов в тексте
                 Character nowCharacter = getCharacterFromText(i);
